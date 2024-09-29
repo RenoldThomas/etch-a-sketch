@@ -10,9 +10,8 @@ function changeSize() {
 
 function makeGrid(size) {
     container.innerHTML = "";
-    
-    let cellSize = 500/size;
 
+    let cellSize = 500 / size;
 
     //To fill container with # of columns
     for (let i = 1; i <= size; i++) {
@@ -22,7 +21,7 @@ function makeGrid(size) {
         //To fill column with # of divs
         for (let j = 1; j <= size; j++) {
             const div = document.createElement("div");
-            
+
             div.style.width = `${cellSize}px`;
             div.style.height = `${cellSize}px`;
 
