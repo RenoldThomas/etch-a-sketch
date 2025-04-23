@@ -1,3 +1,6 @@
+/* Etch-a-Sketch Styles */
+
+/* Reset and base page layout */
 body {
     display: flex;
     flex-direction: column;
@@ -5,24 +8,64 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
 }
 
+/* Page title styling */
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Control button styling */
 button {
     width: 200px;
     height: auto;
     border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
 }
 
+/* Button hover effect */
+button:hover {
+    background-color: #45a049;
+}
+
+/* Container for the grid - uses flexbox for layout */
 #container {
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Column styling - each column is a flex container */
 .columns {
     display: flex;
+    /* Columns are arranged vertically */
+    flex-direction: column;
 }
 
+/* Individual grid cell styling */
 .columns div {
-    border: 1px solid black;
+    border: 1px solid #e0e0e0;
+    box-sizing: border-box;
+    /* Smooth transition for color changes */
+    transition: background-color 0.1s;
+}
+
+/* Instructions section styling */
+.instructions {
+    margin-top: 20px;
+    text-align: center;
+    color: #666;
+    max-width: 500px;
 }
