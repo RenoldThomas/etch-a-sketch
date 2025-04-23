@@ -11,7 +11,7 @@ This is a web-based Etch-a-Sketch application that allows users to draw by hover
 - Color cells by hovering over them
 
 ## How to Use
-1. Open `index.html` in a web browser
+1. Open https://renoldthomas.github.io/etch-a-sketch in a web browser
 2. Hover your mouse over the grid cells to color them
 3. Click the "Change grid size?" button to adjust the grid density
 4. Enter a number between 1-100 when prompted to set your desired grid size
@@ -33,3 +33,6 @@ Potential features to implement:
 
 ## Author
 Renold T (@renold)
+
+## Credits
+This project was created as part of The Odin Project curriculum (2021).
